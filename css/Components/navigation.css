@@ -1,0 +1,38 @@
+.nav {
+    grid-area: nav;
+    border-right: 0.5pt solid #7F8FA4;
+    padding-top: 2.5em;
+}
+
+.nav__wrapper {
+    display: flex;
+    color: #7F8FA4;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav__wrapper--active {
+    display: flex;
+    color: #E9812D;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #FEF8F3;
+}
+
+.nav__icon {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.nav__icon--indented {
+    padding: 0.5em 1em 0.5em 3.5em;
+}
+
+.nav__arrow {
+    padding-right: 1em;
+    padding-left: 5em;
+}
+
+.nav__arrow--active {
+    padding-right: 1em;
+    padding-left: 6.4em;
+}
