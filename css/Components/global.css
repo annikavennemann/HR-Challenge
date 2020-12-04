@@ -14,4 +14,11 @@ html, body {
       "nav headline"
       "nav brands";
 }
+
+input[type=search] {
+    padding: 1em 25em 1em 2em ;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	background: #F5F6FA;
+}
   

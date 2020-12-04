@@ -14,6 +14,13 @@ html, body {
       "nav headline"
       "nav brands";
 }
+
+input[type=search] {
+    padding: 1em 25em 1em 2em ;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	background: #F5F6FA;
+}
   
 .logo { 
     grid-area: logo;
@@ -99,11 +106,9 @@ html, body {
     border: 1px solid #707070;
 }
 
-input[type=search] {
-    padding: 1em 25em 1em 2em ;
-	font-family: 'Roboto', sans-serif;
-	border: none;
-	background: #F5F6FA;
+.brands__search-button {
+    background-color: transparent;
+    border: none;
 }
 
 .brands__display {
@@ -113,6 +118,8 @@ input[type=search] {
 
 .brands__display--icon {
     padding: 0 0.5em;
+    width: 1.5em;
+    height: auto;
 }
 
 .brands__list {
