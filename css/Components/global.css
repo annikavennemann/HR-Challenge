@@ -6,17 +6,12 @@ html, body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 0.5fr 1.6fr;
+    grid-template-columns: 0.4fr 1.6fr;
     grid-template-rows: 0.1fr 0.1fr 11fr;
     gap: 0px 0px;
     grid-template-areas:
       "logo header"
       "nav headline"
       "nav brands";
-  }
-  
-  
-  .brands { grid-area: brands; }
-  
- 
+}
   
