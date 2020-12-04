@@ -3,9 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Remazing</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="grid-container">
+        <div class="logo">
+            <img class="logo__remazing" src="./images/remazing.png" alt="rising logo">
+        </div>
+
+        <header class="header">
+            <div class="header__wrapper">
+                <img class="header__alert" src="./images/alert.svg" alt="bell">
+                <p class="header__initials">JB</p>
+                <img class="header__profile-picture" src="./images/jeffBezos.png" alt="">
+            </div>
+        </header>
+
+        <div class="headline">
+            <h3 class="headline__title">Brands</h3>
+        </div>
+        
+        <nav class="nav">
+            <div class="nav__wrapper">
+                <img class="nav__icon" src="./images/home.svg" alt="house">
+                <p>Dashboard</p>
+            </div>
+            <div class="nav__wrapper">
+                <img class="nav__icon" src="./images/list.svg" alt="cm user interface">
+                <p>Content Management</p>
+            </div>
+            <div class="nav__wrapper">
+                <img class="nav__icon" src="./images/chartPie.svg" alt="chart pie">
+                <p>Monitoring</p>
+                <img class="nav__arrow" src="./images/arrow.svg" alt="">
+            </div>
+            <div class="nav__wrapper">
+                <img class="nav__icon--indented" src="./images/lightbulb.svg" alt="light bulb">
+                <p>Content</p>
+            </div>
+            <div class="nav__wrapper--active">
+                <img class="nav__icon" src="./images/account.svg" alt="">
+                <p>Account</p>
+                <img class="nav__arrow--active" src="./images/arrowOrange.svg" alt="">
+            </div>
+            <div class="nav__wrapper">
+                <img class="nav__icon--indented" src="./images/user.svg" alt="two people">
+                <p>User</p>
+            </div>
+        </nav>
+
+        <div class="brands">
+            <div class="brands__header">
+                <div class="brands__category">
+                    <h4 class="brands__category--headline">Your brands</h4>
+                    <img src="./images/arrow.svg" alt="">
+                </div>
+                <div class="brands__search">
+                    <form action="">
+                        <input type="search" id="search" name="gsearch" placeholder="Search brands...">
+                    </form>
+                    <img class="search__icon" src="./images/search.svg" alt="magnifier">
+                </div>
+                <div class="brands__display">
+                    <img class="brands__display--icon" src="./images/quader.svg" alt="">
+                    <img class="brands__display--icon" src="./images/menu.svg" alt="">
+                </div>
+            </div>
+           
+            <ul class="brands__list">
+                <li class="brands__listitem">
+                    <div class="brands__container--active">
+                        <button class="brands__button--orangeText">All Phases</button>
+                        <button class="brands__button">Monitoring</button>
+                        <button class="brands__button">Amazon Cases</button>
+                        <button class="brands__button--orangeBackground">Dashboard</button>
+                        <button class="brands__button">Product Catalog</button>
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/mcDowells.png" alt="">
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/oddish.png" alt="">
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/duff.png" alt="">
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/umbrella.png" alt="">
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/westworld.png" alt="">
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/globe.png" alt="">
+                    </div>
+                </li>
+                <li class="brands__listitem">
+                    <div class="brands__container">
+                        <img class="brands__logo" src="./images/encom.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Ⓒ 2020 All Rights Reserved | Remazing</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+    </div>  
 </body>
 </html>

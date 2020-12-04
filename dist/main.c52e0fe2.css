@@ -1,0 +1,233 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-rows: 0.1fr 0.1fr 11fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "logo header"
+      "nav headline"
+      "nav brands";
+}
+  
+.logo { 
+    grid-area: logo;
+    border: 0.5pt solid #7F8FA4;
+}
+
+.logo__remazing {
+    display: block;
+    margin: auto;
+    height: 2.7em;
+    width: auto;
+    padding: 1em;
+}
+.header {
+    grid-area: header;
+    border: 0.5pt solid #7F8FA4;
+    border-left: none;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.header__alert {
+    width: 1.5em;
+    height: auto;
+    padding: 1.5em 2em;
+}
+
+.header__initials {
+    font-weight: medium;
+    font-size: 22px;
+}
+
+.header__profile-picture {
+    width: 3.7em;
+    height: auto;
+    padding: 0.5em 1em;
+}
+.headline {
+    grid-area: headline;
+    background-color: #F9FAFC;
+    border-bottom: 0.5pt solid #7F8FA4;
+    color: #012E40;
+}
+
+.headline__title {
+    margin: 0;
+    padding: 0.7em 0 0.7em 3em;
+    font-size: 24px;
+}
+.brands {
+    grid-area: brands; 
+    background-color: #F5F6FA;
+}
+
+.brands__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands__category {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5.4em;
+}
+
+.brands__category--headline {
+    margin: 0 1em 0 0;
+    font-size: 22px;
+    color: #012E40;
+    font-weight: 300;
+}
+
+.brands__search {
+    display: flex;
+    align-self: center;
+    margin: 2em;
+    padding-right: 1em;
+    border: 1px solid #707070;
+}
+
+input[type=search] {
+    padding: 1em 25em 1em 2em ;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	background: #F5F6FA;
+}
+
+.brands__display {
+    display: flex;
+    padding: 0 2em;
+}
+
+.brands__display--icon {
+    padding: 0 0.5em;
+}
+
+.brands__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 1em 0 1.5em ;
+}
+
+.brands__listitem {
+    display: inline;
+    margin: 1.5em;
+}
+
+.brands__container,
+.brands__container--active {
+    width: 5000vh;
+    height: 500vh;
+    max-width: 30vh;
+    max-height: 30vh;
+    border: 1px solid #707070;
+    background-color: white;
+}
+
+.brands__container--active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/blur.240123b1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.brands__logo {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 1.6em auto;
+}
+
+.brands__button,
+.brands__button--orangeText,
+.brands__button--orangeBackground {
+    padding: 0.5em 0;
+    margin: 0.25em 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012E40;
+    width: 80%;
+}
+
+.brands__button--orangeText {
+    margin-top: 1em;
+    color: #E9812D;
+}
+
+.brands__button--orangeBackground {
+    background-color:#E9812D;
+    border-radius: 35px;
+    color: white; 
+}
+.nav {
+    grid-area: nav;
+    border-right: 0.5pt solid #7F8FA4;
+    padding-top: 2.5em;
+}
+
+.nav__wrapper {
+    display: flex;
+    color: #7F8FA4;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav__wrapper--active {
+    display: flex;
+    color: #E9812D;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #FEF8F3;
+}
+
+.nav__icon {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.nav__icon--indented {
+    padding: 0.5em 1em 0.5em 3.5em;
+}
+
+.nav__arrow {
+    padding-right: 1em;
+    padding-left: 5em;
+}
+
+.nav__arrow--active {
+    padding-right: 1em;
+    padding-left: 6.4em;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    padding: 0 2em;
+    font-size: 0.8em;
+    background-color: #EFF1FA;
+    color: #012E40;
+}
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */

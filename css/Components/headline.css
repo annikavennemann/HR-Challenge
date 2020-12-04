@@ -1,0 +1,12 @@
+.headline {
+    grid-area: headline;
+    background-color: #F9FAFC;
+    border-bottom: 0.5pt solid #7F8FA4;
+    color: #012E40;
+}
+
+.headline__title {
+    margin: 0;
+    padding: 0.7em 0 0.7em 3em;
+    font-size: 24px;
+}

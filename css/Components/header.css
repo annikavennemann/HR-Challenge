@@ -1,0 +1,29 @@
+.header {
+    grid-area: header;
+    border: 0.5pt solid #7F8FA4;
+    border-left: none;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.header__alert {
+    width: 1.5em;
+    height: auto;
+    padding: 1.5em 2em;
+}
+
+.header__initials {
+    font-weight: medium;
+    font-size: 22px;
+}
+
+.header__profile-picture {
+    width: 3.7em;
+    height: auto;
+    padding: 0.5em 1em;
+}
