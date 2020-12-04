@@ -1,0 +1,22 @@
+{
+  "name": "hr-challenge",
+  "version": "1.0.0",
+  "description": "remazing-challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annikavennemann/HR-Challenge.git"
+  },
+  "author": "Annika Vennemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/annikavennemann/HR-Challenge/issues"
+  },
+  "homepage": "https://github.com/annikavennemann/HR-Challenge#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
